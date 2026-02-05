@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaSense - Smart Water Quality Monitoring</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              sky: { 500: '#0ea5e9' }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s ease;
+        }
+        .scale-gradient-ph {
+          background: linear-gradient(to right, #ef4444, #10b981, #3b82f6);
+        }
+        .scale-gradient-temp {
+          background: linear-gradient(to right, #3b82f6, #ef4444);
+        }
+        .scale-gradient-tds {
+          background: linear-gradient(to right, #10b981, #f59e0b, #ef4444);
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "recharts": "https://esm.sh/recharts@^3.7.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-gray-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

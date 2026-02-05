@@ -1,0 +1,5 @@
+{
+  "name": "AquaSense Smart Water Monitoring",
+  "description": "A high-fidelity IoT water quality monitoring dashboard tracking TDS, Turbidity, Temperature, and Estimated pH with real-time insights.",
+  "requestFramePermissions": []
+}
